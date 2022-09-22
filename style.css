@@ -26,13 +26,14 @@ header {
 header nav .cont-nav-header {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin: 0px 80px;
     gap: 20px;
 }
 
 .cont-nav-header li {
     list-style: none;
-    padding: 30px;
+    padding: 20px;
 }
 
 .cont-nav-header a {
@@ -41,6 +42,14 @@ header nav .cont-nav-header {
     text-transform: uppercase;
 }
 
+.cont-nav-header li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.cont-nav-header li a img:hover{
+    transform: scale(2);
+}
 header nav ul li a:active {
     box-shadow: 0 0 15px 4px var(--color2);
 }
@@ -61,7 +70,7 @@ header nav ul li a span:hover {
 header nav ul li a span {
     background-color: rgb(250, 250, 240);
     border-radius: 50px;
-    padding: 15px;
+    padding: 10px;
 }
 
 /* Introduction section*/
@@ -179,7 +188,7 @@ header nav ul li a span {
 
 .cont-knowledge-info {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .cont-knowledge-info h2 {
@@ -246,10 +255,11 @@ header nav ul li a span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2em;
 }
 
 blockquote {
-    width: 70%;
+    width: 90%;
     text-align: center;
     padding: 35px;
 }
@@ -257,7 +267,7 @@ blockquote {
 blockquote p {
     margin-bottom: 40px;
     font-family: 'Dosis', sans-serif;
-    font-size: 250%;
+    font-size: 230%;
     color: rgb(250, 250, 240);
 }
 
@@ -563,6 +573,17 @@ textarea {
         gap: 10px;
         padding-bottom: 25px;
     }
+    /* quote */
+    .quote-section {
+        min-height: 50vh;
+    }
+    blockquote {
+        width: 100%;
+        padding: 10px;
+    }
+    blockquote p {
+        font-size: 200%;
+    }
     /* projects */
     .cont-projects-items {
         grid-template-columns: repeat(2, 1fr);
@@ -611,8 +632,15 @@ textarea {
         padding-bottom: 25px;
     }
     /* quote */
+    .quote-section {
+        min-height: 50vh;
+    }
+    blockquote {
+        width: 100%;
+        padding: 10px;
+    }
     blockquote p {
-        font-size: 180%;
+        font-size: 170%;
     }
     /* projects */
     .cont-projects-items {
