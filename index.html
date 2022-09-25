@@ -31,27 +31,27 @@
   </head>
   <body>
     <!--Header start-->
-    <header tabindex="1">
+    <header>
       <nav>
         <ul class="cont-nav-header">
           <li class="nav-link">
-            <a href="#introduction">hi</a>
+            <a href="#introduction" tabindex="1">hi</a>
           </li>
           <li class="nav-link">
-            <a href="#skills">knowledge</a>
+            <a href="#skills" tabindex="2">knowledge</a>
           </li>
           <li class="nav-link">
-            <a href="#projects">projects</a>
+            <a href="#projects" tabindex="3">projects</a>
           </li>
           <li>
-            <a href="#contact"><span>contact me</span></a>
+            <a href="#contact" tabindex="4"><span>contact me</span></a>
           </li>
           <li>
-            <a href="spanishversion.html">
+            <a href="spanishversion.html" tabindex="5">
               <img
                 src="assets/spanish.jpg"
-                alt="Link to spanish version"
-                title="Enlace a version en español"
+                alt="Enlace a versión en Español"
+                title="Enlace a versión en español"
               />
             </a>
           </li>
@@ -62,70 +62,85 @@
 
     <main>
       <!-- introduction section-->
-      <section class="intro-section" id="introduction" tabindex="2">
+      <section class="intro-section" id="introduction" tabindex="6">
         <div class="intro-items">
           <h1>
             <span>Hi! I am</span> <br />
             Yennifer Arrubla
           </h1>
           <p>
-            Front-end web development student, life learner, language lover. I enjoy contemplating nature all its
-            colors and shapes.
+            Front-end web development student, life learner, language lover. I
+            enjoy contemplating nature all its colors and shapes.
           </p>
-          <a href="#projects" aria-label="This link goes to my project section"
-            >What I do</a
-          >
+          <a 
+            href="#projects" 
+            aria-label="This link goes to my project section"
+            tabindex="8">
+            What I do
+          </a>
         </div>
-        <div class="cont-photo">
+        <div class="cont-photo" tabindex="7">
           <img
-            src="assets/img-portada2.jpeg"
-            alt="photograph with my face"
-            title="This is me"
+            src="assets/perfil-photograph.jpeg"
+            alt="Perfil photograph"
+            title="Perfil photograph"
           />
         </div>
       </section>
       <!-- introduction section end -->
 
       <!-- knowledge section -->
-      <section class="knowledge-section" id="skills" tabindex="3">
+      <section class="knowledge-section" id="skills" tabindex="9">
         <div class="cont-knowledge-info">
           <h2>My knowledge</h2>
-          <p>Right now, I am learning about this amazing topics</p>
+          <p tabindex="9">Right now, I am learning about this amazing topics</p>
         </div>
         <div class="cont-knowledge-items">
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="image symbol of html5"
+              tabindex="10"
             />
             <p class="skill-title">HTML 5</p>
           </div>
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="image symbol of css3"
+              tabindex="11"
             />
             <p class="skill-title">CSS 3</p>
           </div>
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+              alt="image symbol of sass"
+              tabindex="12"
             />
             <p class="skill-title">Sass</p>
           </div>
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              alt="image symbol of javascript"
+              tabindex="13"
             />
             <p class="skill-title">JavaScript</p>
           </div>
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="image symbol of react"
+              tabindex="14"
             />
             <p class="skill-title">React</p>
           </div>
           <div class="skill-item">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="image symbol of git"
+              tabindex="15"
             />
             <p class="skill-title">GIT</p>
           </div>
@@ -134,11 +149,11 @@
       <!-- knowledge section end -->
 
       <!-- Quote section -->
-      <section class="quote-section" tabindex="4">
+      <section class="quote-section"  tabindex="16" aria-label="Quote section made by Albert Einstein">
         <blockquote
           cite="https://www.goodreads.com/quotes/422465-the-most-beautiful-thing-we-can-experience-is-the-mysterious"
         >
-          <p>
+          <p tabindex="16">
             “The most beautiful thing we can experience is the mysterious. It is
             the source of all true art and all science. He to whom this emotion
             is a stranger, who can no longer pause to wonder and stand rapt in
@@ -152,7 +167,7 @@
       <!-- Quote section end-->
 
       <!--Projects section-->
-      <section class="projects-section" id="projects" tabindex="5">
+      <section class="projects-section" id="projects" tabindex="17">
         <div class="cont-projects-info">
           <h2>My projects</h2>
         </div>
@@ -160,9 +175,10 @@
           <div class="cont-img-project">
             <a href="#" target="_blank">
               <img
-                src="assets/img-portfolio.jpg"
+                src="assets/portfolio-image.jpg"
                 alt="project image"
                 title="Project image"
+                tabindex="18"
               />
               <p>Portfolio</p>
             </a>
@@ -174,6 +190,7 @@
                 src="assets/img-memes-generator.jpg"
                 alt="project image"
                 title="Project image Memes generator"
+                tabindex="19"
               />
               <p>Memes generator</p>
             </a>
@@ -185,6 +202,7 @@
                 src="assets/img-match-3.jpg"
                 alt="project image"
                 title="Project image Match 3"
+                tabindex="20"
               />
               <p>Match 3</p>
             </a>
@@ -196,6 +214,7 @@
                 src="assets/img-expense-control.jpg"
                 alt="project image"
                 title="Project image Expense control"
+                tabindex="21"
               />
               <p>Expense control</p>
             </a>
@@ -207,6 +226,7 @@
                 src="assets/img-meetings-administrator.jpg"
                 alt="project image"
                 title="Project image Meeting administrator"
+                tabindex="22"
               />
               <p>Meeting system administrator</p>
             </a>
@@ -218,6 +238,7 @@
                 src="assets/img-all-app.jpg"
                 alt="project image"
                 title="Project image all app"
+                tabindex="23"
               />
               <p>All app</p>
             </a>
@@ -229,6 +250,7 @@
                 src="assets/img-movie-search.jpg"
                 alt="project image"
                 title="Project image Movie search"
+                tabindex="24"
               />
               <p>Movie search engine</p>
             </a>
@@ -238,9 +260,9 @@
       <!--Projects section end-->
 
       <!--contact section-->
-      <section class="contact-section" id="contact" tabindex="6">
+      <section class="contact-section" id="contact" tabindex="25">
         <div class="cont-contact">
-          <div class="cont-contact-info">
+          <div class="cont-contact-info" tabindex="26">
             <h2>Contact me</h2>
             <p>
               If you want to know more about me, or you have something in mind
@@ -250,8 +272,14 @@
             <div class="cont-social-media-links">
               <ul>
                 <li>
-                  <a href="https://twitter.com/yeniferarrubla" target="_blank">
-                    <i class="icons fa-brands fa-twitter"></i>
+                  <a 
+                    href="https://twitter.com/yeniferarrubla" 
+                    target="_blank"
+                    tabindex="27">
+                    <i
+                      class="icons fa-brands fa-twitter"
+                      aria-label="link to Yenifer's twitter"
+                    ></i>
                     @yeniferArrubla
                   </a>
                 </li>
@@ -259,20 +287,38 @@
                   <a
                     href="https://www.linkedin.com/in/yennifer-arrubla-76b88a250/"
                     target="_blank"
-                  >
-                    <i class="icons fa-brands fa-linkedin"></i>
+                    tabindex="28">
+                    <i
+                      class="icons fa-brands fa-linkedin"
+                      aria-label="link to Yenifer's Linkedin"
+                    >
+                    </i>
                     Linkedin
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/YeniferArrubla" target="_blank">
-                    <i class="icons fa-brands fa-github-alt"></i>
+                  <a 
+                    href="https://github.com/YeniferArrubla" 
+                    target="_blank"
+                    tabindex="29">
+                    <i
+                      class="icons fa-brands fa-github-alt"
+                      aria-label="link to Yenifer's GitHub"
+                    >
+                    </i>
                     GitHub
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:yeniferarrubla@gmail.com" target="_blank">
-                    <i class="icons fa-solid fa-envelope"></i>
+                  <a 
+                    href="mailto:yeniferarrubla@gmail.com" 
+                    target="_blank"
+                    tabindex="30">
+                    <i
+                      class="icons fa-solid fa-envelope"
+                      aria-label="link to write email"
+                    >
+                    </i>
                     yeniferarrubla@gmail.com
                   </a>
                 </li>
@@ -280,7 +326,7 @@
             </div>
           </div>
           <!-- contac form -->
-          <div class="cont-write-me-form">
+          <div class="cont-write-me-form" tabindex="31">
             <form action="get">
               <h2>Write me</h2>
               <div class="form">
@@ -293,6 +339,7 @@
                     name="name"
                     placeholder="Write your name"
                     required
+                    tabindex="32"
                   />
                 </div>
                 <div>
@@ -304,6 +351,7 @@
                     name="lastname"
                     placeholder="Write your lastname"
                     required
+                    tabindex="33"
                   />
                 </div>
               </div>
@@ -315,6 +363,7 @@
                 id="email"
                 placeholder="Write your email"
                 required
+                tabindex="34"
               />
               <label for="message"><p>Message *</p></label>
               <textarea
@@ -327,9 +376,14 @@
                 minlength="3"
                 placeholder="Please leave your message here"
                 required
+                tabindex="35"
               ></textarea>
               <br />
-              <input class="send" type="submit" value="Send" />
+              <input 
+                class="send" 
+                type="submit" 
+                value="Send"
+                tabindex="36" />
             </form>
           </div>
         </div>
@@ -338,21 +392,21 @@
     </main>
 
     <!-- Footer section -->
-    <footer class="footer" tabindex="7">
+    <footer class="footer" tabindex="37">
       <nav class="footer-nav">
         <!-- inside navigation -->
         <ul class="footer-nav-menu">
           <li>
-            <a href="#skills">knowledge</a>
+            <a href="#skills" tabindex="38">knowledge</a>
           </li>
           <li>
-            <a href="#projects">projects</a>
+            <a href="#projects" tabindex="39">projects</a>
           </li>
           <li>
-            <a href="#contact">contact me</a>
+            <a href="#contact" tabindex="40">contact me</a>
           </li>
           <li>
-            <a href="#introduction">hi</a>
+            <a href="#introduction" tabindex="41">hi</a>
           </li>
         </ul>
       </nav>
@@ -361,32 +415,53 @@
       <!-- social media links -->
       <ul class="footer-social-media-links">
         <li>
-          <a href="https://twitter.com/yeniferarrubla" target="_blank">
-            <i class="icons fa-brands fa-twitter"></i>
+          <a 
+            href="https://twitter.com/yeniferarrubla" 
+            target="_blank"
+            tabindex="42">
+            <i
+              class="icons fa-brands fa-twitter"
+              aria-label="link to Yenifer's twitter"
+            ></i>
           </a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/yennifer-arrubla-76b88a250/"
             target="_blank"
-          >
-            <i class="icons fa-brands fa-linkedin"></i>
+            tabindex="43">
+            <i
+              class="icons fa-brands fa-linkedin"
+              aria-label="link to Yenifer's Linkedin"
+            ></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/YeniferArrubla" target="_blank">
-            <i class="icons fa-brands fa-github-alt"></i>
+          <a 
+            href="https://github.com/YeniferArrubla" 
+            target="_blank"
+            tabindex="44">
+            <i
+              class="icons fa-brands fa-github-alt"
+              aria-label="link to Yenifer's GitHub"
+            ></i>
           </a>
         </li>
         <li>
-          <a href="mailto:yeniferarrubla@gmail.com" target="_blank">
-            <i class="icons fa-solid fa-envelope"></i>
+          <a 
+            href="mailto:yeniferarrubla@gmail.com" 
+            target="_blank"
+            tabindex="45">
+            <i
+              class="icons fa-solid fa-envelope"
+              aria-label="link to write an Email"
+            ></i>
           </a>
         </li>
       </ul>
       <!-- social media links end -->
 
-      <p>Made with ❤️ by Yennifer Arrubla</p>
+      <p tabindex="46" aria-label="made with love by Yenifer Arrubla">Made with ❤️ by Yennifer Arrubla</p>
     </footer>
     <!-- Footer section end-->
   </body>

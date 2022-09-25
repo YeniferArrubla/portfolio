@@ -1,28 +1,26 @@
 
 # Portfolio
-
-By Yennifer Arrubla, 
-here you can find information about me. 
-
-This is an unfinish project yet, the images inside the project section are example images. 
-
-
-## Sections
+By **Yennifer Arrubla** 
+---
+![Portfolio image](./assets/portfolio-image.jpg)    
+Here you can find information about me and about my learning process, which I am building with each project. The images inside the Project section are example images when I finish each project I will replace them whit real image project.
+---
+## Portfolio Sections
 
 - Hi
 - Knowledge
 - Projects
 - Contact me
-
-
+---
 ## Features
 
 - Colorful desing
-- Range of responsive desing
-- Basic accesibility
+- Break points with responsive desing
+- Basic accesibility features
+- English and Spanish versions
 
 
-## Thanks
+## Link
 
-Thanks for visit my project 💜
+[Thanks for visit my project 💜](https://yeniferarrubla.github.io/portfolio/) 
 
